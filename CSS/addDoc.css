@@ -33,7 +33,7 @@ body{
 
 .grid-c{
     display: grid;
-    grid-template-columns: 15% 1fr 1fr ;
+    grid-template-columns: 15% 1fr;
     grid-template-rows: 40px 1fr 1fr;
     gap: 10px;
 }
@@ -41,7 +41,6 @@ body{
 .add {
     display: flex;
     justify-content: end;
-    grid-column: span 2;
 }
 
 .hideButton {
@@ -66,10 +65,6 @@ body{
     background-color: #388871;
 }
 
-.tab{
-    grid-column: span 2;
-}
-
 .tabHide {
     display: none;
     visibility: hidden;
@@ -88,5 +83,6 @@ table {
 }
 
 .adding {
-    visibility: hidden;
+    display: flex;
+    column-gap: 50%;
 }
