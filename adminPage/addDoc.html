@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Doctor</title>
+    <link rel="stylesheet" href="./addDoc.css"/>
+</head>
+<body>
+    <div class="grid-c">
+        
+        <div class="leftMenu">
+            <h1><img src="./imagesInAdmin/person-circle.svg"/>Admin</h1>
+            <h2><img src="./imagesInAdmin/chat-left-dots.svg"/>Message</h2>
+            <h2 class="logout"><img src="./imagesInAdmin/box-arrow-left.svg"/>Logout</h2>
+        </div>
+        <div class="add">
+            <button>Add Doctor</button>
+            <button class="back">Back</button>
+        </div>
+        <div class="tab">
+            <table>
+                <tr>
+                    <th>RegNO</th>
+                    <th>Name</th>
+                    <th>Specialist</th>
+                    <th>Degree</th>
+                    <th>Contact</th>
+                    <th>Address</th>
+                </tr>
+                <tr>
+                    <td>MB12</td>
+                    <td>Shreya Gore</td>
+                    <td>Cardiologist</td>
+                    <td>MBBS</td>
+                    <td>808012345</td>
+                    <td>Spring Valley</td>
+                </tr>
+            </table>
+        </div>
+        <div class="info">
+            <form class="adding hiding">
+                <input type="text" id="RegNo" placeholder="Registraion No.: "/>
+                <input type="text" id="Name" placeholder="Name"/>
+                <select name="Specialist" id="Specialist">
+                    <option>~Select Speciality</option>
+                    <option value="Cardiologist">Cardiologist</option>
+                    <option value="Neuro">Neurologist</option>
+                    <option value="Orthologist">Orthologist</option>
+                </select>
+                <select name="Degree" id="Degree">
+                    <option>~Select Degree</option>
+                    <option value="MBBS">MBBS</option>
+                    <option value="BHMS">BHMS</option>
+                    <option value="MD">MD</option>
+                </select>
+                <input type="text" id="Contact" placeholder="Contact"/>
+                <input type="text" id="Address" placeholder="Address"/>
+                <button class="submit"> Submit Form</button>
+            </form>
+        </div>
+    </div>
+    <script src="./addDoc.js"></script>
+</body>
+</html>

@@ -1,0 +1,153 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #DEF9C4;
+}
+
+.leftMenu {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color:#50B498;
+    padding: 10px;
+    grid-row: span 3;
+}
+
+.leftMenu h2{
+    padding-top: 20px;
+    border-bottom:  1px solid;
+}
+
+.leftMenu h2:hover{
+    background-color:#41a085;
+    cursor: pointer;
+    color: whitesmoke;
+}
+
+.leftMenu img{
+    padding-right: 20px;
+    height: 25px;
+}
+
+.grid-c{
+    display: grid;
+    grid-template-columns: 15% 1fr;
+    grid-template-rows: 40px 1fr 1fr;
+    gap: 10px;
+}
+
+.add {
+    display: flex;
+    justify-content: end;
+}
+
+.hideButton {
+    display: none;
+    visibility: hidden;
+}
+
+.add button{
+    height: 40px;
+    width: 150px;
+    margin-right: 20px;
+    margin-top: 20px;
+    border-radius: 50px;
+    border: none;
+    background-color: #41a085;
+    font-weight: bolder;
+}
+
+.add button:hover{
+    cursor: pointer;
+    color: whitesmoke;
+    background-color: #388871;
+    transition: 0.1s;
+    border: 3px solid #ffffff;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 50px;
+    -webkit-box-shadow: 0px 0px 4px #ffffff;
+    -moz-box-shadow: 0px 0px 4px #ffffff;
+    box-shadow: 0px 0px 4px #ffffff;
+}
+
+.tabHide {
+    display: none;
+    visibility: hidden;
+}
+
+.tab{
+    margin-right: 10px;
+}
+
+th, tr, td, table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    font-size: 1.2rem;
+}
+
+th{
+    border: 2px solid black;
+}
+
+table {
+    width: 100%;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.adding {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-right: 20px;
+    gap: 20px;
+}
+
+.hiding {
+    visibility: hidden;
+    display: none;
+}
+
+.submit {
+    grid-column: span 2;
+    width: 200px;
+    height: 30px;
+    border-radius: 50px;
+    border: none;
+    background-color: #41a085;
+    text-align: center;
+    font-weight: bolder;
+    justify-self: center;
+}
+
+.submit:hover {
+    cursor: pointer;
+    color: whitesmoke;
+    background-color: #388871;
+    transition: 0.1s;
+    border: 3px solid #ffffff;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 50px;
+    -webkit-box-shadow: 0px 0px 4px #ffffff;
+    -moz-box-shadow: 0px 0px 4px #ffffff;
+    box-shadow: 0px 0px 4px #ffffff;
+}
+
+.adding input {
+    height: 30px;
+    padding-left: 5px;
+}
+
+.adding select {
+    height: 30px;
+}
+
+.info {
+    margin: 20px;
+}
