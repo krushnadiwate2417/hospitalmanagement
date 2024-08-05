@@ -108,10 +108,7 @@ table {
     gap: 20px;
 }
 
-.hiding {
-    visibility: hidden;
-    display: none;
-}
+
 
 .submit {
     grid-column: span 2;
