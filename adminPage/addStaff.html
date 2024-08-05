@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Doctor</title>
+    <link rel="stylesheet" href="./addDoc.css"/>
+</head>
+<body>
+    <div class="grid-c">
+        
+        <div class="leftMenu">
+            <h1><img src="./imagesInAdmin/person-circle.svg"/>Admin</h1>
+            <h2><img src="./imagesInAdmin/chat-left-dots.svg"/>Message</h2>
+            <h2 class="logout"><img src="./imagesInAdmin/box-arrow-left.svg"/>Logout</h2>
+        </div>
+        <div class="add">
+            <button>Add Staff</button>
+            <button class="back">Back</button>
+        </div>
+        <div class="tab">
+            <table>
+                <tr>
+                    <th>Staff Id</th>
+                    <th>Name</th>
+                    <th>Contact</th>
+                    <th>Address</th>
+                    <th>Position</th>
+                </tr>
+                <tr>
+                    <td>ST01</td>
+                    <td>ABCDEFG</td>
+                    <td>808012345</td>
+                    <td>Spring Valley</td>
+                    <td>Nurse</td>
+                </tr>
+            </table>
+        </div>
+        <div class="info">
+            <form class="adding hiding">
+                <input type="text" id="RegNo" placeholder="Staff ID: "/>
+                <input type="text" id="Name" placeholder="Name"/>
+                <input type="text" id="Contact" placeholder="Contact"/>
+                <input type="text" id="Address" placeholder="Address"/>
+                <select name="Role">
+                    <option>~Select Role</option>
+                    <option value="nurse">Nurse</option>
+                    <option value="Receptionist">Receptionist</option>
+                    <option value="Cleaner">Cleaner</option>
+                </select>
+                <button class="submit"> Submit Form</button>
+            </form>
+        </div>
+    </div>
+    <script src="./addDoc.js"></script>
+</body>
+</html>
